@@ -1,956 +1,114 @@
-Build a modern, professional, responsive PERSONAL ACADEMIC & RESEARCH PORTFOLIO WEBSITE for:
+# MASTER PROMPT — Sriram M GitHub Profile README
+
+Paste this entire prompt into Claude (or any capable AI) any time you want to regenerate, update, or rebuild your GitHub profile README from scratch. It is self-contained — no need to re-upload your resume.
 
-Mr. K. Daniel Raj, B.Tech., M.E., (MBA), MISTE.
+---
+
+## ROLE
 
-The website must be designed as a long-term personal academic portfolio where I can update all information from an ADMIN DASHBOARD without modifying source code.
+You are building a GitHub profile README (the special `username/username` repo) for the person described below. Output ONE single `README.md` file, plus one profile photo file. Follow every rule in the "Hard Rules" section exactly — they exist because earlier versions broke.
 
-CORE REQUIREMENT:
-Create a complete CRUD-based CMS.
+---
 
-Whenever I want to add a new publication, book chapter, conference paper, achievement, experience, project, certificate, event, or other profile information, I should simply log in to the Admin Dashboard and use Add/Edit/Delete.
+## PERSON DATA (from resume — use exactly, don't invent extra facts)
 
-The changes must immediately reflect on the public website.
+**Name:** Sriram M
+**Location:** Perambalur, Tamil Nadu, India
+**Email:** kit29.am48@gmail.com
+**Links:**
+- LinkedIn: https://linkedin.com/in/srisriram
+- GitHub: https://github.com/Sriram2214
+- LeetCode: https://leetcode.com/u/SriramMuthaiya/ (handle: `SriramMuthaiya`)
+- CodeChef: https://www.codechef.com/users/srirammuthaiya (handle: `srirammuthaiya`)
+- Codeforces: https://codeforces.com/profile/kit29.am48 (handle: `kit29.am48`)
+- Codolio: https://codolio.com/profile/SriramMuthaiya
 
-DO NOT hardcode portfolio content into frontend components.
+**Summary:** First-year B.E. Computer Science (AI & ML) student at Kalaignar Karunanidhi Institute of Technology (CGPA 8.9/10.0), with hands-on experience across ML, DL, generative AI, agentic AI, and CNN-based models (Python, NumPy, Pandas). Completed AI/ML internships with V-DART and CodeAlpha. Comfortable with the full data-analyst workflow. Also builds full-stack + AI-assisted apps (Python, C, C++, Java, HTML, SQL, Cursor, Google AI Studio, Lovable). 1400+ CodeChef problems, 150+ LeetCode problems, 10+ GitHub projects. Submitted 10+ research paper proposals, 1 accepted for publication.
 
-==================================================
-1. TECHNOLOGY STACK
-==================================================
+**Education:**
+| Institution | Program | Duration | Score |
+|---|---|---|---|
+| Kalaignar Karunanidhi Institute of Technology, Coimbatore | B.E. CSE (AI & ML) | 2025–2029 | CGPA 8.9/10.0 |
+| Jayaram Educational Trust | Full Stack Dev (Power BI, Python, HTML, SQL, C) | May–Aug 2025 | — |
+| St. Mary's Matriculation HSS, Agaram | Class XII / X | — | 193.5/200 · 96.6% |
 
-Frontend:
-- Next.js latest stable version
-- TypeScript
-- Tailwind CSS
-- shadcn/ui
-- Framer Motion
-- Lucide React icons
+**Internships:**
+- AI/ML Domain Intern — V-DART, Trichy (1 month): real-world AI/ML workflows; delivered a Time Table Management System
+- AI/ML Virtual Intern — CodeAlpha (1 month): Medical Predictor, AI Loan Credit Predictor, Speech Emotion Analyser
 
-Backend:
-- Next.js API routes / Server Actions
-- PostgreSQL database
-- Prisma ORM
+**Projects:**
+1. Hospital & Healthcare Locator Platform — hospital/doctor/X-ray directory + GPS comparison + govt scheme info
+2. InternHub — internship discovery + résumé-to-requirement profile matching + qualification advisor
+3. Ulavanin Ulaipalar — smart agriculture support system for farmers
+4. VAANI AI — multilingual real-time voice assistant
+5. Student Management System — C + file handling
+6. Smart No Due System — automated clearance/dues tracking
+7. Farm Plan Pro — intelligent crop planning tool (C, DSA, file handling)
 
-Authentication:
-- Secure Admin Login
-- Email/username + password
-- Password hashing
-- Protected admin routes
-- Session-based authentication
+**Skills:**
+- Languages: C, C++, Java, Python
+- Web/DB: HTML, CSS, SQL
+- Data/ML libs: NumPy, Pandas
+- AI/ML: Machine Learning, Deep Learning, Generative AI, Agentic AI, CNNs, 15+ ML algorithms
+- Data Analytics: cleaning/preprocessing, visualization, statistics & probability, Power BI
+- AI Tools: Google AI Studio (Gemini), Cursor, Lovable, Antigravity, Codeflying, Emergent
+- Core: Data Structures, File Handling, AI Automation, Prompt Engineering, Workflow Design
 
-Storage:
-- Cloudinary or Supabase Storage for profile photo, certificates, publication files, project images and other uploads.
+**Certifications:** ML with Python (IBM) · Data Science Essentials (Cisco) · Advanced DSA in Java: BSTs (Infosys Springboard) · C Programming (Infosys Springboard) · Generative AI (Intellipaat) · AWS Skill Fest Badge · MongoDB (AI/ML) Certification · National Level Srinivasa Ramanujan Mathematics Competition (Participant)
 
-Deployment-ready for:
-- Vercel
-- PostgreSQL/Supabase
+**Achievements:** Ideathon @ GSSS Women's College, Mysore · Smart Hack 32-Hour Hackathon @ KIT, Coimbatore · 1 research paper published
 
-==================================================
-2. PUBLIC WEBSITE
-==================================================
+**Competitive programming stats:** CodeChef 1400+ solved / rating 1182 (1★) · LeetCode 150+ solved / rating 1298 · Codeforces 20+ solved · GitHub 10+ projects
 
-Create these main sections:
+---
 
-1. Home
-2. About Me
-3. Education
-4. Experience
-5. Research Profile
-6. Publications
-7. Book Chapters
-8. Books
-9. Patents
-10. Conferences
-11. Reviewer / Editorial Roles
-12. Research Projects
-13. Skills
-14. Professional Memberships
-15. Courses / Certifications
-16. Achievements
-17. Events / FDP / Workshops
-18. Gallery
-19. Contact
+## HARD RULES (do not violate — these caused real breakage before)
 
-Use smooth scrolling and modern page transitions.
+1. **Zero GitHub Actions / workflows.** Do not use any service that requires a `.github/workflows/*.yml` file, a repo secret, or a scheduled job (this rules out `github-profile-3d-contrib` and `Platane/snk` snake animation). Every image must render from a plain public URL or a local file, nothing else.
+2. **No slow/sleeping third-party servers.** Avoid `onrender.com`-style free-tier services that take 10+ seconds to wake up.
+3. **Profile photo must be a LOCAL file**, referenced as `assets/profile.png` inside the same repo — never hotlinked. Local files never go down.
+4. **Development Journey section = plain text arrow diagram** (```text``` block with `↓`), NOT a Mermaid flowchart and NOT a Gantt chart. This was explicitly requested — do not reintroduce graphs there.
+5. **Mermaid is allowed elsewhere** (e.g., the Generative AI pipeline) since GitHub renders it natively — never breaks, no image hosting involved.
+6. **No decorative chart-generator images** (e.g., QuickChart radar/doughnut) unless explicitly asked for again — they were removed by request.
+7. Competitive-programming cards, in this exact order/layout, using the exact handles above:
+   - LeetCode: `https://leetcard.jacoblin.cool/SriramMuthaiya?theme=unicorn&font=Fira%20Code`
+   - CodeChef: `https://cp-logo.vercel.app/codechef/srirammuthaiya?logo=true`
+   - Codeforces: `https://codeforces-readme-stats.vercel.app/api/card?username=kit29.am48`
+   - Codolio: badge-only link (no public embeddable stats API exists for Codolio)
+   - Lay these out as a side-by-side "global-style" split (HTML `<table>`: LeetCode left column, CodeChef+Codeforces stacked right column), followed by a small solved/rating summary table.
+8. GitHub stats via `github-readme-stats.vercel.app`, `github-readme-streak-stats.herokuapp.com`, `github-profile-trophy.vercel.app`, theme `radical`, username `Sriram2214`.
+9. Header banner: `capsule-render.vercel.app` waving type, dark-navy-to-purple-to-cyan AI gradient (`0:0F2027,25:2C5364,50:6A11CB,75:2575FC,100:00C6FF`), `animation=twinkling`.
+10. Typing subtitle via `readme-typing-svg.demolab.com`, cyan/purple/pink/yellow gradient text color, rotating through key facts (first-year student, CodeChef/LeetCode counts, ML/DL/GenAI/Agentic AI, ex-intern, a `model.fit()` joke).
+11. Everything in **ONE `README.md` file** unless the person explicitly asks for it split into multiple files again.
+12. Keep it colorful/rainbow-gradient throughout (`#00E5FF`, `#B14EFF`, `#FF6EC7`, `#F9D423`, `#6A11CB` family) — this was requested repeatedly and should stay the default palette unless told otherwise.
 
-==================================================
-3. HERO SECTION
-==================================================
+---
 
-Display:
+## BANNER IMAGE PROMPT (for external AI image generators — ChatGPT/DALL·E/Ideogram/Midjourney)
 
-Mr. K. Daniel Raj
-B.Tech., M.E., (MBA), MISTE.
+Use this if a custom hero banner image (not just the capsule-render gradient) is wanted:
 
-Primary designation:
-Assistant Professor | Computer Science & Engineering | Researcher
+```
+A wide 1920x480px dark navy/black futuristic tech banner for a GitHub developer profile, cinematic digital-art style.
 
-Add:
-- Professional profile photo
-- Short academic introduction
-- View Research
-- View Publications
-- Download CV
-- Contact Me
+LEFT SIDE: Bold white text "TURNING DATA INTO" in a thin sans-serif font, below it large bold text "INTELLIGENT SOLUTIONS" in a blue-to-purple neon gradient. Below that, a thin divider line with a tagline "Building AI for a Smarter Tomorrow" (the word "AI" in cyan, "Smarter Tomorrow" in purple). Below the tagline, a rounded rectangle outlined in purple neon containing 4 icon+label pairs separated by dots: a brain-circuit icon labeled "LEARN", a lightbulb icon labeled "BUILD", a rocket icon labeled "INNOVATE", a target icon labeled "IMPACT" — all icons in thin cyan/purple neon line-art style.
 
-Social/profile buttons:
-- LinkedIn
-- Google Scholar
-- ORCID
-- Scopus
-- ResearchGate
-- Semantic Scholar
-- IGI Global
+CENTER-RIGHT: A large glowing digital human brain made of connected blue-purple nodes and wireframe lines, next to a glowing isometric microchip/CPU with "AI" text engraved on it in cyan neon, circuit board traces glowing blue radiating outward, small icons floating nearby (cloud, code brackets, database cylinder, gear) in thin neon line-art.
 
-Do not invent profile URLs. Store every URL in the database so I can change it from Admin.
+RIGHT SIDE: A vertical stack of 4 small info rows, each with a small cyan/purple line-icon on the left and two lines of white/cyan text on the right:
+1. Brain-chip icon — "AI & ML" — "Building intelligent models that solve real-world problems"
+2. Bar-chart icon — "DATA DRIVEN" — "Transforming data into actionable insights"
+3. Cloud icon — "CLOUD & IoT" — "Working with cloud platforms, IoT devices & real-time systems"
+4. Code-brackets icon — "FULL STACK" — "Python, SQL, backend & web technologies"
 
-==================================================
-4. ABOUT SECTION
-==================================================
+Background: deep navy-black with a subtle glowing blue wave/mesh pattern in the bottom-left corner and scattered faint binary digits. Overall palette: black background, electric blue, violet/purple, and white text. High-tech, glassy, glowing, professional portfolio-banner aesthetic — no photorealistic people, no real logos, no watermarks.
+```
 
-Create an editable professional biography.
+---
 
-It must be managed through Admin Dashboard.
+## OUTPUT INSTRUCTIONS
 
-Include:
-- Academic background
-- Teaching interests
-- Research interests
-- Professional interests
-- Career objective
-
-==================================================
-5. EDUCATION CRUD
-==================================================
-
-Database fields:
-
-id
-qualification
-specialization
-institution
-location
-startYear
-endYear
-modeOfStudy
-percentageOrCGPA
-status
-description
-displayOrder
-isVisible
-
-Admin operations:
-
-CREATE
-READ
-UPDATE
-DELETE
-
-Example records can be imported from my resume.
-
-==================================================
-6. EXPERIENCE CRUD
-==================================================
-
-Fields:
-
-id
-designation
-organization
-location
-employmentType
-startDate
-endDate
-isCurrent
-description
-displayOrder
-isVisible
-
-Display experience as a professional timeline.
-
-Admin must be able to:
-- Add experience
-- Edit experience
-- Delete experience
-- Change order
-- Mark current position
-
-==================================================
-7. PUBLICATION MANAGEMENT
-==================================================
-
-This is one of the MOST IMPORTANT modules.
-
-Create separate database tables for:
-
-A. Journal Publications
-B. Scopus Journal Publications
-C. Book Chapters
-D. Conference Publications
-E. Preprints
-F. Books
-G. Patents
-
-Each publication must be independently editable.
-
-Journal Publication fields:
-
-id
-title
-authors
-journalName
-publisher
-volume
-issue
-year
-doi
-indexing
-status
-abstract
-keywords
-paperUrl
-doiUrl
-pdfUrl
-publicationType
-featured
-displayOrder
-isVisible
-
-Admin buttons:
-
-+ Add Publication
-Edit
-Delete
-Duplicate
-Publish/Unpublish
-
-DO NOT require code modification to add a new paper.
-
-If I publish another paper tomorrow, I should only need:
-
-Admin Dashboard → Publications → Add New → Save
-
-==================================================
-8. BOOK CHAPTER CRUD
-==================================================
-
-Fields:
-
-title
-authors
-bookTitle
-publisher
-isbn
-year
-indexing
-chapterUrl
-doi
-status
-description
-displayOrder
-isVisible
-
-Show publication status clearly:
-
-Published
-Accepted
-Under Review
-In Press
-
-==================================================
-9. PATENT CRUD
-==================================================
-
-Fields:
-
-title
-applicationNumber
-filingDate
-publicationDate
-status
-inventors
-patentUrl
-description
-displayOrder
-isVisible
-
-Create a professional patent card.
-
-==================================================
-10. CONFERENCE PUBLICATION CRUD
-==================================================
-
-Fields:
-
-title
-conferenceName
-conferenceYear
-location
-publisher
-indexing
-status
-paperUrl
-doi
-description
-displayOrder
-isVisible
-
-Allow filtering by:
-- Year
-- IEEE
-- Springer
-- Scopus
-- International
-- National
-- Published
-- Accepted
-
-==================================================
-11. RESEARCH PROJECT CRUD
-==================================================
-
-Fields:
-
-title
-shortDescription
-fullDescription
-researchArea
-technologies
-dataset
-methodology
-results
-githubUrl
-demoUrl
-paperUrl
-image
-year
-status
-featured
-displayOrder
-isVisible
-
-Create attractive project cards.
-
-==================================================
-12. RESEARCH PROFILE
-==================================================
-
-Create editable profile cards for:
-
-Google Scholar
-ORCID
-Scopus Author ID
-VIDWAN
-ResearchGate
-Semantic Scholar
-IGI Global
-
-Each profile must have:
-
-platformName
-profileUrl
-icon
-description
-displayOrder
-isVisible
-
-I must be able to change URLs from Admin.
-
-==================================================
-13. REVIEWER / EDITORIAL ROLES
-==================================================
-
-Create CRUD.
-
-Fields:
-
-organization
-journalOrConference
-role
-year
-description
-profileUrl
-logo
-displayOrder
-isVisible
-
-Examples:
-Reviewer
-Editorial Board Member
-Technical Program Committee Member
-Reviewer / Author Affiliate
-
-==================================================
-14. SKILLS
-==================================================
-
-Create skill categories:
-
-Programming
-AI / ML
-Web Development
-Database
-Research
-Professional Skills
-Soft Skills
-
-Fields:
-
-skillName
-category
-skillLevel
-yearsOfExperience
-icon
-displayOrder
-isVisible
-
-Show skills using clean cards/progress indicators.
-
-==================================================
-15. MEMBERSHIPS
-==================================================
-
-CRUD fields:
-
-organization
-membershipType
-membershipNumber
-year
-validUntil
-website
-logo
-description
-isVisible
-
-==================================================
-16. CERTIFICATIONS / COURSES
-==================================================
-
-CRUD:
-
-courseName
-provider
-year
-certificateNumber
-certificateUrl
-certificateImage
-description
-isVisible
-
-==================================================
-17. ACHIEVEMENTS
-==================================================
-
-CRUD:
-
-title
-organization
-date
-category
-description
-certificateUrl
-image
-featured
-isVisible
-
-==================================================
-18. ADMIN DASHBOARD
-==================================================
-
-Create a professional admin dashboard.
-
-Dashboard should display:
-
-Total Publications
-Journal Publications
-Book Chapters
-Conference Papers
-Books
-Patents
-Research Projects
-Reviewer Roles
-Achievements
-Experience Records
-
-Include a sidebar:
-
-Dashboard
-Profile
-Education
-Experience
-Publications
-Book Chapters
-Books
-Patents
-Conferences
-Preprints
-Research Projects
-Research Profiles
-Reviewer Roles
-Skills
-Memberships
-Courses
-Achievements
-Events
-Gallery
-Messages
-Site Settings
-
-Every module must have:
-
-+ Add New
-Search
-Filter
-Sort
-Edit
-Delete
-Duplicate
-Publish/Unpublish
-Reorder
-
-Use confirmation dialogs before deletion.
-
-==================================================
-19. PROFILE SETTINGS
-==================================================
-
-Create a centralized Profile Settings page.
-
-I should be able to change:
-
-Name
-Professional title
-Designation
-Short bio
-Full bio
-Profile photo
-Email
-Phone
-Location
-LinkedIn
-Google Scholar
-ORCID
-Scopus
-ResearchGate
-Semantic Scholar
-Website
-CV
-
-Do not hardcode these values.
-
-==================================================
-20. SITE SETTINGS
-==================================================
-
-Admin should be able to change:
-
-Website title
-Meta description
-Keywords
-Favicon
-Logo
-Theme
-Primary accent color
-Footer text
-Copyright
-Social links
-Contact information
-
-==================================================
-21. ANALYTICS
-==================================================
-
-Admin dashboard should display:
-
-Total website visits
-Publication page views
-Most viewed publications
-Research project views
-Contact enquiries
-
-If practical, integrate Google Analytics.
-
-==================================================
-22. SEARCH & FILTER
-==================================================
-
-Public website must have global search.
-
-Search:
-
-Publications
-Book Chapters
-Books
-Patents
-Projects
-Conferences
-Achievements
-
-Publication page must support:
-
-Search by title
-Search by author
-Search by year
-Filter by indexing
-Filter by publication type
-Filter by status
-
-==================================================
-23. PUBLICATION STATISTICS
-==================================================
-
-Automatically calculate statistics from the database.
-
-Examples:
-
-Journal Publications
-Book Chapters
-Conference Publications
-Books
-Patents
-Preprints
-Reviewer Roles
-
-IMPORTANT:
-Never manually hardcode these numbers.
-
-If I add a new publication from Admin, the statistics should automatically increase.
-
-Example:
-
-Current:
-Journal Publications = 2
-
-Admin adds:
-New Journal Publication
-
-Automatically:
-Journal Publications = 3
-
-==================================================
-24. FEATURED CONTENT
-==================================================
-
-Admin should be able to mark:
-
-Featured Publication
-Featured Project
-Featured Achievement
-Featured Book
-Featured Patent
-
-Featured items should automatically appear on the Home page.
-
-==================================================
-25. RESUME / CV
-==================================================
-
-Add:
-
-Download CV
-
-The CV should be replaceable through Admin Dashboard.
-
-Admin:
-Settings → CV → Upload New CV
-
-No source code changes required.
-
-==================================================
-26. CONTACT SYSTEM
-==================================================
-
-Create contact form:
-
-Name
-Email
-Subject
-Message
-
-Store messages in database.
-
-Admin can:
-
-View
-Mark as Read
-Mark as Unread
-Delete
-
-==================================================
-27. DATABASE DESIGN
-==================================================
-
-Use normalized PostgreSQL database.
-
-Suggested models:
-
-User
-Profile
-Education
-Experience
-Publication
-BookChapter
-Book
-Conference
-Preprint
-Patent
-ResearchProject
-ResearchProfile
-ReviewerRole
-Skill
-Membership
-Certification
-Achievement
-Event
-Gallery
-ContactMessage
-SiteSetting
-
-Every table should include:
-
-id
-createdAt
-updatedAt
-
-Where relevant include:
-
-displayOrder
-isVisible
-featured
-
-==================================================
-28. SECURITY
-==================================================
-
-Implement:
-
-- Protected admin routes
-- Secure authentication
-- Password hashing
-- Server-side validation
-- Client-side validation
-- SQL injection protection through Prisma
-- XSS protection
-- CSRF protection where applicable
-- Secure file uploads
-- File type validation
-- File size limits
-- Rate limiting for contact form
-- Never expose database credentials
-- Never expose admin API keys to frontend
-
-==================================================
-29. UI / DESIGN
-==================================================
-
-Design style:
-
-Premium academic + modern technology portfolio.
-
-Avoid:
-- Excessive animations
-- Excessive gradients
-- Overdecorated layouts
-- Generic template appearance
-- Huge unnecessary text
-
-Use:
-
-- Clean typography
-- White / dark professional theme
-- Subtle blue accent
-- Glassmorphism only where appropriate
-- Professional cards
-- Timeline layouts
-- Publication cards
-- Research statistics
-- Minimal animations
-- Responsive design
-
-Must look professional enough for:
-
-Assistant Professor
-Researcher
-IEEE Author
-Academic Writer
-Research Collaborator
-
-==================================================
-30. RESPONSIVE DESIGN
-==================================================
-
-Must work perfectly on:
-
-Desktop
-Laptop
-Tablet
-Mobile
-
-Admin dashboard should also be responsive.
-
-==================================================
-31. SEO
-==================================================
-
-Implement:
-
-SEO metadata
-Open Graph
-Twitter/X cards
-Sitemap
-Robots.txt
-Structured data / JSON-LD
-Person schema
-ScholarlyArticle schema where appropriate
-
-Optimize for searches such as:
-
-Daniel Raj Assistant Professor
-Daniel Raj CSE
-Daniel Raj Researcher
-Daniel Raj Publications
-Daniel Raj AI Researcher
-
-==================================================
-32. IMPORTANT CONTENT RULE
-==================================================
-
-Use the uploaded resume as the initial data source.
-
-Do not invent achievements, publications, indexing claims, positions, DOI numbers, awards, or academic qualifications.
-
-Import the existing resume information into the database as seed data.
-
-If information is unavailable, leave it blank rather than creating fake content.
-
-==================================================
-33. MOST IMPORTANT FUNCTIONAL REQUIREMENT
-==================================================
-
-The website must behave like a personal CMS.
-
-I should NOT have to ask a developer to update my website.
-
-Example:
-
-I publish a new research paper.
-
-I open:
-
-/admin
-
-Login
-
-Publications
-→ Add New
-
-Enter:
-
-Title
-Authors
-Journal
-Year
-DOI
-Indexing
-Status
-URL
-Abstract
-
-Click:
-
-SAVE
-
-Then the paper automatically appears on:
-
-Home → Featured Publications (if selected)
-Publications page
-Research statistics
-Search results
-Relevant category
-
-The same principle must work for every section.
-
-==================================================
-34. CRUD REQUIREMENT
-==================================================
-
-Every editable section must support:
-
-CREATE
-READ
-UPDATE
-DELETE
-
-Use reusable CRUD components.
-
-Do not duplicate unnecessary code.
-
-Implement:
-
-DataTable
-FormModal / FormPage
-DeleteConfirmation
-SearchBar
-Filter
-Pagination
-SortableList
-ImageUploader
-FileUploader
-RichTextEditor
-Toast Notifications
-
-==================================================
-35. ADMIN EXPERIENCE
-==================================================
-
-The Admin Dashboard should be simple enough that a non-developer can manage the website.
-
-Example:
-
-Dashboard
-→ Publications
-→ Add Publication
-→ Fill Form
-→ Save
-
-No coding.
-
-No database commands.
-
-No source-code modification.
-
-No redeployment for normal content updates.
-
-==================================================
-36. FINAL REQUIREMENTS
-==================================================
-
-Generate:
-
-1. Complete frontend
-2. Backend/API
-3. PostgreSQL database schema
-4. Prisma schema
-5. Authentication
-6. Admin dashboard
-7. CRUD operations
-8. File upload system
-9. Seed data from resume
-10. Responsive UI
-11. SEO
-12. Error handling
-13. Loading states
-14. Empty states
-15. Form validation
-16. Database migrations
-17. README
-18. Environment variable example
-19. Deployment instructions
-
-The final result must be production-ready and maintainable.
-
-MOST IMPORTANT:
-CONTENT MUST BE DATABASE-DRIVEN.
-
-I want to update my entire academic profile from one Admin Dashboard.
-
-Do not hardcode dynamic portfolio information into the frontend.
+1. Generate `README.md` following every Hard Rule above.
+2. If a resume PDF is attached in the same session, extract the embedded photo (`pdfimages -png`), crop it to a circle with a rainbow-neon ring border, and save it as `assets/profile.png` for the header.
+3. Deliver both files ready to drop into the `<github-username>/<github-username>` repo — `README.md` in the root, `profile.png` inside an `assets/` folder.
+4. Do not require any GitHub Actions setup for anything to render.
