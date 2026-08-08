@@ -1,10 +1,10 @@
-<!-- ================= 🌈 3D COLORFUL ANIMATED HEADER ================= -->
+<!-- ================= 🌈 AI/ML THEMED 3D ANIMATED HEADER ================= -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0000,15:FF9900,30:FFEE00,50:33CC33,70:0099FF,85:6A11CB,100:FF00CC&height=230&section=header&text=Sriram%20M&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI/ML%20Developer%20|%20Generative%20AI%20Enthusiast%20|%20Backend%20&%20Cloud%20Explorer&descAlignY=58&descSize=20"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,25:2C5364,50:6A11CB,75:2575FC,100:00C6FF&height=240&section=header&text=Sriram%20M&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=🤖%20AI%2FML%20Engineer%20|%20Generative%20AI%20|%20RAG%20%26%20Vector%20Search&descAlignY=58&descSize=18"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=FF6EC7,F9D423,36D1DC,5B86E5&center=true&vCenter=true&multiline=false&width=750&separator=;&lines=Building+Intelligent+Systems+with+AI%2FML;Exploring+Generative+AI+%26+LLMs;Learning+RAG+%26+Vector+Databases;Developing+Scalable+Backend+Systems;Turning+Ideas+into+Real-World+Projects" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&pause=1000&color=00E5FF,B14EFF,FF6EC7,F9D423&center=true&vCenter=true&width=780&separator=;&lines=Training+Models+...+Deploying+Intelligence;Building+RAG+Pipelines+%26+AI+Agents;Vectorizing+Knowledge+%2C+One+Embedding+at+a+Time;model.fit(data%2C+curiosity)+%F0%9F%A4%96;Turning+Ideas+into+Real-World+AI+Systems" />
 </p>
 
 <p align="center">
@@ -19,12 +19,35 @@
 
 ## 🚀 About Me
 
-I'm **Sriram M**, a passionate technology enthusiast focused on building **intelligent, scalable, real-world applications** using AI, Machine Learning, Generative AI, and modern software technologies.
+I'm **Sriram M**, an aspiring **AI/ML Engineer** focused on building **intelligent, scalable, real-world applications** using Machine Learning, Generative AI, and modern software technologies.
 
 - 🎓 Student at **KKIT – Kalaignar Karunanithi Institute of Technology**
 - 🧠 Focused on **AI, ML, Generative AI, LLMs, RAG, Vector Databases, Backend Development, Cloud, and IoT**
-- 🔍 Currently exploring how **LLMs, AI Agents, RAG pipelines, semantic search, and vector databases** combine to build smarter applications
-- 💻 Practicing **DSA** and sharpening problem-solving on competitive platforms daily
+- 🔍 Exploring how **LLMs, AI Agents, RAG pipelines, semantic search, and vector databases** combine into smarter applications
+- 💻 Practicing **DSA** and sharpening problem-solving daily
+
+---
+
+## 🧬 My Generative AI Pipeline (Live Diagram)
+
+```mermaid
+flowchart LR
+    A["📄 Raw Data"] --> B["🧩 Embeddings"]
+    B --> C[("🗃️ Vector Database")]
+    C --> D["🔎 Semantic Search"]
+    D --> E["🔗 RAG Pipeline"]
+    E --> F["🤖 LLM"]
+    F --> G["⚡ AI Application"]
+    style A fill:#0F2027,stroke:#00E5FF,color:#fff
+    style B fill:#2C5364,stroke:#00E5FF,color:#fff
+    style C fill:#6A11CB,stroke:#B14EFF,color:#fff
+    style D fill:#2575FC,stroke:#00E5FF,color:#fff
+    style E fill:#B14EFF,stroke:#FF6EC7,color:#fff
+    style F fill:#FF6EC7,stroke:#F9D423,color:#000
+    style G fill:#F9D423,stroke:#FF9900,color:#000
+```
+
+> GitHub renders this diagram natively (no external image, no broken links) — it's part of your markdown.
 
 ---
 
@@ -38,18 +61,48 @@ I'm **Sriram M**, a passionate technology enthusiast focused on building **intel
   </picture>
 </p>
 
-> ⚙️ This renders once you add the small workflow snippet from **Step 2** at the bottom of this file to your repo — it auto-generates a rotating 3D rainbow bar-chart of your commits every day.
-
----
+> ⚙️ Appears once you add the workflow at the bottom of this file to your repo.
 
 ## 🐍 Contribution Snake (Rainbow)
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sriram2214/Sriram2214/output/github-contribution-grid-snake-rainbow.svg">
-    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/Sriram2214/Sriram2214/output/github-contribution-grid-snake-rainbow.svg">
-  </picture>
+  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/Sriram2214/Sriram2214/output/github-contribution-grid-snake-rainbow.svg" width="100%">
 </p>
+
+---
+
+## 🏁 Live Competitive Programming Stats
+
+Three different visualization styles — contest rating trend, activity heatmap, and rating badge — all pulling **live data**, no manual updates needed.
+
+**LeetCode — Contest Rating Trend**
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/SriramMuthaiya?theme=unicorn&font=Fira%20Code&ext=contest" alt="LeetCode contest rating"/>
+</p>
+
+**LeetCode — Activity Heatmap**
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/SriramMuthaiya?theme=unicorn&font=Fira%20Code&ext=heatmap" alt="LeetCode heatmap"/>
+</p>
+
+**CodeChef — Rating Badge**
+<p align="center">
+  <a href="https://www.codechef.com/users/srirammuthaiya">
+    <img src="https://cp-logo.vercel.app/codechef/srirammuthaiya?logo=true" alt="CodeChef rating"/>
+  </a>
+</p>
+
+**CodeChef — Full Stats Card** *(community-hosted, may take ~10s to wake up on first load)*
+<p align="center">
+  <img src="https://codechef-readme-stats.onrender.com/srirammuthaiya?v=1" alt="CodeChef stats card"/>
+</p>
+
+**Codolio**
+<p align="center">
+  <a href="https://codolio.com/profile/SriramMuthaiya"><img src="https://img.shields.io/badge/View%20Combined%20CP%20Tracker-Codolio-1e88e5?style=for-the-badge"/></a>
+</p>
+
+> ℹ️ Codolio doesn't currently offer a public embeddable stats API — the badge above links straight to your live tracker page.
 
 ---
 
@@ -79,11 +132,6 @@ IoT                   ███████████████░░░░�
 <p><img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow"/></p>
 
 Machine Learning · Deep Learning · NLP · Generative AI · LLM Applications · Model Training & Evaluation · Feature Engineering · Explainable AI · Anomaly Detection · Recommendation Systems
-
-**Generative AI Pipeline**
-```text
-LLMs → Prompt Engineering → Embeddings → Vector Database → RAG → Semantic Search → AI Applications
-```
 
 **Vector Databases:** `Pinecone` `ChromaDB` `Weaviate` `Qdrant` `Milvus` `LanceDB` `pgvector`
 
@@ -118,17 +166,21 @@ LLMs → Prompt Engineering → Embeddings → Vector Database → RAG → Seman
 
 ---
 
-## 🧩 Problem Solving
-
-`Data Structures` `Algorithms` `Problem Solving` `SQL` `Competitive Programming` `Logical Thinking`
-
----
-
 ## 🏗️ My Development Journey
 
-```text
-Programming → DSA → Python/Java/SQL → Machine Learning → Deep Learning
-   → Generative AI → LLMs → RAG + Vector Databases → AI Agents → Production AI Systems
+```mermaid
+flowchart TD
+    A[Programming] --> B[DSA]
+    B --> C[Python / Java / SQL]
+    C --> D[Machine Learning]
+    D --> E[Deep Learning]
+    E --> F[Generative AI]
+    F --> G[LLMs]
+    G --> H[RAG + Vector Databases]
+    H --> I[AI Agents]
+    I --> J[🚀 Production AI Systems]
+    style A fill:#0F2027,color:#fff
+    style J fill:#F9D423,color:#000
 ```
 
 ---
@@ -168,7 +220,7 @@ Programming → DSA → Python/Java/SQL → Machine Learning → Deep Learning
 
 <p align="center"><i>🌈 Learn → Build → Break → Improve → Repeat 🌈</i></p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF00CC,15:6A11CB,30:0099FF,50:33CC33,70:FFEE00,85:FF9900,100:FF0000&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,25:2575FC,50:6A11CB,75:2C5364,100:0F2027&height=120&section=footer"/>
 
 <!--
 ========================================================================
