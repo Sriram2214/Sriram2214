@@ -1,7 +1,15 @@
-<!-- ================= 🌈 AI/ML ANIMATED HEADER (zero setup) ================= -->
+<!-- ================= 🎨 CUSTOM AI BANNER (your own generated image) ================= -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,25:2C5364,50:6A11CB,75:2575FC,100:00C6FF&height=240&section=header&text=Sriram%20M&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=🤖%20AI%2FML%20Engineer%20|%20Generative%20AI%20|%20RAG%20%26%20Vector%20Search&descAlignY=58&descSize=18"/>
+  <img width="100%" src="assets/banner.png" alt="Sriram M — AI/ML Engineer banner"/>
 </p>
+
+<!--
+  👆 Put your generated banner image at:  assets/banner.png  (in this same repo)
+  Local images NEVER break — no third-party service, no hotlink, no downtime.
+  If you'd rather keep the old animated gradient banner as a backup/fallback,
+  swap the line above back to:
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,25:2C5364,50:6A11CB,75:2575FC,100:00C6FF&height=240&section=header&text=Sriram%20M&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=🤖%20AI%2FML%20Engineer%20|%20Generative%20AI%20|%20RAG%20%26%20Vector%20Search&descAlignY=58&descSize=18"/>
+-->
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&pause=1000&color=00E5FF,B14EFF,FF6EC7,F9D423&center=true&vCenter=true&width=780&separator=;&lines=Training+Models+...+Deploying+Intelligence;Building+RAG+Pipelines+%26+AI+Agents;Vectorizing+Knowledge%2C+One+Embedding+at+a+Time;model.fit(data%2C+curiosity)+%F0%9F%A4%96;Turning+Ideas+into+Real-World+AI+Systems" />
@@ -46,22 +54,6 @@ flowchart LR
     style F fill:#FF6EC7,stroke:#F9D423,color:#000
     style G fill:#F9D423,stroke:#FF9900,color:#000
 ```
-
----
-
-## 🕸️ Skill Radar
-
-<p align="center">
-  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%22radar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22ML%22%2C%22GenAI%22%2C%22RAG%22%2C%22Vector%20DB%22%2C%22Backend%22%2C%22Cloud%22%2C%22IoT%22%2C%22DSA%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22Skill%20Level%22%2C%22data%22%3A%5B8%2C8%2C7%2C7%2C7%2C6%2C6%2C7%5D%2C%22backgroundColor%22%3A%22rgba%28106%2C17%2C203%2C0.45%29%22%2C%22borderColor%22%3A%22%2300E5FF%22%2C%22borderWidth%22%3A2%2C%22pointBackgroundColor%22%3A%22%23FF6EC7%22%2C%22pointBorderColor%22%3A%22%23fff%22%2C%22pointRadius%22%3A4%7D%5D%7D%2C%22options%22%3A%7B%22plugins%22%3A%7B%22legend%22%3A%7B%22labels%22%3A%7B%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22size%22%3A13%7D%7D%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22AI%2FML%20Skill%20Radar%22%2C%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22size%22%3A16%7D%7D%7D%2C%22scales%22%3A%7B%22r%22%3A%7B%22angleLines%22%3A%7B%22color%22%3A%22rgba%28255%2C255%2C255%2C0.25%29%22%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba%28255%2C255%2C255%2C0.15%29%22%7D%2C%22pointLabels%22%3A%7B%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22ticks%22%3A%7B%22display%22%3Afalse%2C%22stepSize%22%3A2%7D%2C%22suggestedMin%22%3A0%2C%22suggestedMax%22%3A10%7D%7D%7D%7D&backgroundColor=%230F2027&width=520&height=380&devicePixelRatio=2" alt="AI/ML skill radar chart" width="100%"/>
-</p>
-
-## 🍩 Focus Area Split
-
-<p align="center">
-  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%22doughnut%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22GenAI%20%26%20LLMs%22%2C%22ML%2FDL%22%2C%22Backend%22%2C%22Cloud%20%26%20IoT%22%2C%22DSA%22%5D%2C%22datasets%22%3A%5B%7B%22data%22%3A%5B30%2C25%2C20%2C15%2C10%5D%2C%22backgroundColor%22%3A%5B%22%23FF6EC7%22%2C%22%2300E5FF%22%2C%22%23B14EFF%22%2C%22%23F9D423%22%2C%22%2333CC33%22%5D%2C%22borderColor%22%3A%22%230F2027%22%2C%22borderWidth%22%3A3%7D%5D%7D%2C%22options%22%3A%7B%22plugins%22%3A%7B%22legend%22%3A%7B%22position%22%3A%22bottom%22%2C%22labels%22%3A%7B%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Focus%20Area%20Split%22%2C%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22size%22%3A16%7D%7D%7D%7D%7D&backgroundColor=%230F2027&width=480&height=380&devicePixelRatio=2" alt="focus area doughnut chart" width="70%"/>
-</p>
-
-> ✅ Every chart above is a plain image/markdown link generated live from a public URL — no GitHub Actions, no repo secrets, no workflow file needed anywhere. Nothing to break.
 
 ---
 
