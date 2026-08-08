@@ -1,10 +1,10 @@
-<!-- ================= 🌈 AI/ML THEMED 3D ANIMATED HEADER ================= -->
+<!-- ================= 🌈 AI/ML ANIMATED HEADER (zero setup) ================= -->
 <p align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,25:2C5364,50:6A11CB,75:2575FC,100:00C6FF&height=240&section=header&text=Sriram%20M&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=🤖%20AI%2FML%20Engineer%20|%20Generative%20AI%20|%20RAG%20%26%20Vector%20Search&descAlignY=58&descSize=18"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&pause=1000&color=00E5FF,B14EFF,FF6EC7,F9D423&center=true&vCenter=true&width=780&separator=;&lines=Training+Models+...+Deploying+Intelligence;Building+RAG+Pipelines+%26+AI+Agents;Vectorizing+Knowledge+%2C+One+Embedding+at+a+Time;model.fit(data%2C+curiosity)+%F0%9F%A4%96;Turning+Ideas+into+Real-World+AI+Systems" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&pause=1000&color=00E5FF,B14EFF,FF6EC7,F9D423&center=true&vCenter=true&width=780&separator=;&lines=Training+Models+...+Deploying+Intelligence;Building+RAG+Pipelines+%26+AI+Agents;Vectorizing+Knowledge%2C+One+Embedding+at+a+Time;model.fit(data%2C+curiosity)+%F0%9F%A4%96;Turning+Ideas+into+Real-World+AI+Systems" />
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@ I'm **Sriram M**, an aspiring **AI/ML Engineer** focused on building **intellige
 
 ---
 
-## 🧬 My Generative AI Pipeline (Live Diagram)
+## 🧬 My Generative AI Pipeline
 
 ```mermaid
 flowchart LR
@@ -47,62 +47,42 @@ flowchart LR
     style G fill:#F9D423,stroke:#FF9900,color:#000
 ```
 
-> GitHub renders this diagram natively (no external image, no broken links) — it's part of your markdown.
-
 ---
 
-## 🌌 Live 3D Contribution Graph
+## 🕸️ Skill Radar
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg">
-    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-south.svg">
-    <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="100%"/>
-  </picture>
+  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%22radar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22ML%22%2C%22GenAI%22%2C%22RAG%22%2C%22Vector%20DB%22%2C%22Backend%22%2C%22Cloud%22%2C%22IoT%22%2C%22DSA%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22Skill%20Level%22%2C%22data%22%3A%5B8%2C8%2C7%2C7%2C7%2C6%2C6%2C7%5D%2C%22backgroundColor%22%3A%22rgba%28106%2C17%2C203%2C0.45%29%22%2C%22borderColor%22%3A%22%2300E5FF%22%2C%22borderWidth%22%3A2%2C%22pointBackgroundColor%22%3A%22%23FF6EC7%22%2C%22pointBorderColor%22%3A%22%23fff%22%2C%22pointRadius%22%3A4%7D%5D%7D%2C%22options%22%3A%7B%22plugins%22%3A%7B%22legend%22%3A%7B%22labels%22%3A%7B%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22size%22%3A13%7D%7D%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22AI%2FML%20Skill%20Radar%22%2C%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22size%22%3A16%7D%7D%7D%2C%22scales%22%3A%7B%22r%22%3A%7B%22angleLines%22%3A%7B%22color%22%3A%22rgba%28255%2C255%2C255%2C0.25%29%22%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba%28255%2C255%2C255%2C0.15%29%22%7D%2C%22pointLabels%22%3A%7B%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22ticks%22%3A%7B%22display%22%3Afalse%2C%22stepSize%22%3A2%7D%2C%22suggestedMin%22%3A0%2C%22suggestedMax%22%3A10%7D%7D%7D%7D&backgroundColor=%230F2027&width=520&height=380&devicePixelRatio=2" alt="AI/ML skill radar chart" width="100%"/>
 </p>
 
-> ⚙️ Appears once you add the workflow at the bottom of this file to your repo.
-
-## 🐍 Contribution Snake (Rainbow)
+## 🍩 Focus Area Split
 
 <p align="center">
-  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/Sriram2214/Sriram2214/output/github-contribution-grid-snake-rainbow.svg" width="100%">
+  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%22doughnut%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22GenAI%20%26%20LLMs%22%2C%22ML%2FDL%22%2C%22Backend%22%2C%22Cloud%20%26%20IoT%22%2C%22DSA%22%5D%2C%22datasets%22%3A%5B%7B%22data%22%3A%5B30%2C25%2C20%2C15%2C10%5D%2C%22backgroundColor%22%3A%5B%22%23FF6EC7%22%2C%22%2300E5FF%22%2C%22%23B14EFF%22%2C%22%23F9D423%22%2C%22%2333CC33%22%5D%2C%22borderColor%22%3A%22%230F2027%22%2C%22borderWidth%22%3A3%7D%5D%7D%2C%22options%22%3A%7B%22plugins%22%3A%7B%22legend%22%3A%7B%22position%22%3A%22bottom%22%2C%22labels%22%3A%7B%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Focus%20Area%20Split%22%2C%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22size%22%3A16%7D%7D%7D%7D%7D&backgroundColor=%230F2027&width=480&height=380&devicePixelRatio=2" alt="focus area doughnut chart" width="70%"/>
 </p>
+
+> ✅ Every chart above is a plain image/markdown link generated live from a public URL — no GitHub Actions, no repo secrets, no workflow file needed anywhere. Nothing to break.
 
 ---
 
 ## 🏁 Live Competitive Programming Stats
 
-Three different visualization styles — contest rating trend, activity heatmap, and rating badge — all pulling **live data**, no manual updates needed.
-
-**LeetCode — Contest Rating Trend**
+**LeetCode**
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/SriramMuthaiya?theme=unicorn&font=Fira%20Code&ext=contest" alt="LeetCode contest rating"/>
+  <img src="https://leetcard.jacoblin.cool/SriramMuthaiya?theme=unicorn&font=Fira%20Code" alt="LeetCode stats"/>
 </p>
 
-**LeetCode — Activity Heatmap**
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/SriramMuthaiya?theme=unicorn&font=Fira%20Code&ext=heatmap" alt="LeetCode heatmap"/>
-</p>
-
-**CodeChef — Rating Badge**
+**CodeChef**
 <p align="center">
   <a href="https://www.codechef.com/users/srirammuthaiya">
     <img src="https://cp-logo.vercel.app/codechef/srirammuthaiya?logo=true" alt="CodeChef rating"/>
   </a>
 </p>
 
-**CodeChef — Full Stats Card** *(community-hosted, may take ~10s to wake up on first load)*
-<p align="center">
-  <img src="https://codechef-readme-stats.onrender.com/srirammuthaiya?v=1" alt="CodeChef stats card"/>
-</p>
-
 **Codolio**
 <p align="center">
   <a href="https://codolio.com/profile/SriramMuthaiya"><img src="https://img.shields.io/badge/View%20Combined%20CP%20Tracker-Codolio-1e88e5?style=for-the-badge"/></a>
 </p>
-
-> ℹ️ Codolio doesn't currently offer a public embeddable stats API — the badge above links straight to your live tracker page.
 
 ---
 
@@ -183,6 +163,25 @@ flowchart TD
     style J fill:#F9D423,color:#000
 ```
 
+## 🗓️ Roadmap (Next Milestones)
+
+```mermaid
+gantt
+    title AI/ML Learning Roadmap
+    dateFormat  YYYY-MM-DD
+    section Foundations
+    DSA Mastery              :done,    a1, 2026-01-01, 90d
+    ML + DL Core              :active,  a2, 2026-03-01, 90d
+    section Generative AI
+    LLM & Prompt Engineering  :active,  a3, 2026-05-01, 60d
+    RAG + Vector Databases    :         a4, 2026-06-15, 75d
+    section Deployment
+    AI Agents                 :         a5, 2026-08-15, 60d
+    Production AI Systems     :         a6, 2026-10-01, 90d
+```
+
+> ✅ Both diagrams above are native GitHub Mermaid — no image hosting involved, so they always render.
+
 ---
 
 ## 🎯 Current Goals
@@ -191,7 +190,7 @@ flowchart TD
 
 ---
 
-## 📈 GitHub Activity (Rainbow / Radical Theme)
+## 📈 GitHub Activity
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Sriram2214&show_icons=true&theme=radical&hide_border=true&count_private=true" height="165"/>
@@ -200,10 +199,6 @@ flowchart TD
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sriram2214&theme=radical&hide_border=true"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sriram2214&theme=react-dark&hide_border=true&area=true&color=FF6EC7&line=36D1DC&point=F9D423"/>
 </p>
 
 ## 🏆 GitHub Trophies
@@ -221,73 +216,3 @@ flowchart TD
 <p align="center"><i>🌈 Learn → Build → Break → Improve → Repeat 🌈</i></p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,25:2575FC,50:6A11CB,75:2C5364,100:0F2027&height=120&section=footer"/>
-
-<!--
-========================================================================
-  ⚙️  SETUP — the two blocks below are NOT part of the visible profile.
-  They live here so everything is in ONE file, as requested. To make
-  the 3D graph and rainbow snake actually appear above, create these
-  as two SEPARATE files in your repo (GitHub Actions requires real
-  .yml files — they can't run from inside a README), then run each
-  once from the Actions tab ("Run workflow").
-
-  FILE 1: .github/workflows/profile-3d-contrib.yml
-  --------------------------------------------------
-  name: 3D Profile Contribution Graph
-  on:
-    schedule:
-      - cron: "0 0 * * *"
-    workflow_dispatch:
-  jobs:
-    build:
-      runs-on: ubuntu-latest
-      permissions:
-        contents: write
-      steps:
-        - uses: actions/checkout@v4
-        - name: Generate 3D contribution graph
-          uses: yoshi389111/github-profile-3d-contrib@0.7.1
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            USERNAME: ${{ github.repository_owner }}
-        - name: Commit generated files
-          run: |
-            git config user.name github-actions
-            git config user.email github-actions@github.com
-            git add -A ./profile-3d-contrib
-            git commit -m "Update 3D contribution graph" || echo "no changes to commit"
-            git push
-
-  FILE 2: .github/workflows/snake.yml
-  --------------------------------------------------
-  name: Generate Snake Animation
-  on:
-    schedule:
-      - cron: "0 0 * * *"
-    workflow_dispatch:
-    push:
-      branches:
-        - main
-  jobs:
-    generate:
-      permissions:
-        contents: write
-      runs-on: ubuntu-latest
-      steps:
-        - name: Generate snake animation SVGs
-          uses: Platane/snk@v3
-          id: snake-gif
-          with:
-            github_user_name: ${{ github.repository_owner }}
-            outputs: |
-              dist/github-contribution-grid-snake-rainbow.svg?palette=github
-              dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        - name: Push generated files to the output branch
-          uses: crazy-max/ghaction-github-pages@v4
-          with:
-            target_branch: output
-            build_dir: dist
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-========================================================================
--->
