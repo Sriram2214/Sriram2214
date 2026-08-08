@@ -140,39 +140,27 @@ Machine Learning · Deep Learning · NLP · Generative AI · LLM Applications ·
 
 ## 🏗️ My Development Journey
 
-```mermaid
-flowchart TD
-    A[Programming] --> B[DSA]
-    B --> C[Python / Java / SQL]
-    C --> D[Machine Learning]
-    D --> E[Deep Learning]
-    E --> F[Generative AI]
-    F --> G[LLMs]
-    G --> H[RAG + Vector Databases]
-    H --> I[AI Agents]
-    I --> J[🚀 Production AI Systems]
-    style A fill:#0F2027,color:#fff
-    style J fill:#F9D423,color:#000
+```text
+Programming
+     ↓
+Data Structures & Algorithms
+     ↓
+Python / Java / SQL
+     ↓
+Machine Learning
+     ↓
+Deep Learning
+     ↓
+Generative AI
+     ↓
+LLMs
+     ↓
+RAG + Vector Databases
+     ↓
+AI Agents
+     ↓
+🚀 Production AI Systems
 ```
-
-## 🗓️ Roadmap (Next Milestones)
-
-```mermaid
-gantt
-    title AI/ML Learning Roadmap
-    dateFormat  YYYY-MM-DD
-    section Foundations
-    DSA Mastery              :done,    a1, 2026-01-01, 90d
-    ML + DL Core              :active,  a2, 2026-03-01, 90d
-    section Generative AI
-    LLM & Prompt Engineering  :active,  a3, 2026-05-01, 60d
-    RAG + Vector Databases    :         a4, 2026-06-15, 75d
-    section Deployment
-    AI Agents                 :         a5, 2026-08-15, 60d
-    Production AI Systems     :         a6, 2026-10-01, 90d
-```
-
-> ✅ Both diagrams above are native GitHub Mermaid — no image hosting involved, so they always render.
 
 ---
 
