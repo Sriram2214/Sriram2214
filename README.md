@@ -1,3 +1,5 @@
+‪C:\Users\acer\Downloads\ChatGPT Image Aug 8, 2026, 0
+<img width="1983" height="793" alt="ChatGPT Image Aug 8, 2026, 02_20_04 PM" src="https://github.com/user-attachments/assets/52bb30f5-4e27-45de-b881-20f2ff33b719" />
 <!-- ================= 🎨 CUSTOM ANIMATED AI BANNER (local SVG, glowing + spinning chip) ================= -->
 <p align="center">
   <img width="100%" src="assets/banner.svg" alt="Sriram M — Turning Data Into Intelligent Solutions"/>
